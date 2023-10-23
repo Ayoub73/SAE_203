@@ -1,0 +1,59 @@
+
+.avatar_css {
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    padding: 30px;
+    
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+
+}
+
+.identite {
+    font-size: 1.8rem;
+}
+
+.bloc_auteurs {
+   text-align: center;
+}
+
+.liste-auteurs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column(4);
+    column-gap: 1rem;
+}
+
+
+.avatar_css:hover {
+    transform:scale(1.05);
+
+}
+
+.titre_redaction {
+     font-size: 3rem;
+     text-align: center;
+     margin-bottom: 2em;
+     margin-top: 2em;
+     text-shadow: 10px black;
+}
+
+div {
+    background-color: rgb(73, 107, 233);
+    padding:20px;
+    color: white;
+    border-radius: 15px;
+    margin: 0px 0px 20px 0px;
+
+}
+
+.image-twitter{
+    max-width: 50px;
+}

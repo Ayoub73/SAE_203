@@ -1,0 +1,80 @@
+.contenu-article {
+    font-size:1.5rem;
+}
+
+.info{
+    padding-top: 50px;
+    
+}
+
+.image-rogne-cadre{
+    /* cache ce qui sort du conteneur */
+    overflow : hidden;
+    /* zone de recadrage conteneur */
+    display : inline-block; width : 600px; height : 300px;
+    /* Je suis l'axe d'origine des éléments fils positionnés */
+    position : relative;
+    vertical-align : middle;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  .image-rogne-cadre img{
+    /* Déclare un élément positionné */
+    position : absolute;
+    /* Décale l'image */
+   
+  }
+
+  .titre-page {
+    text-shadow: 0.5px 0.5px 1px black;
+  }
+
+  #chapo{
+      margin-top: 10px;
+  }
+
+ 
+  .bouton-redacteur {
+    display: inline-block;
+    background-color: #ef509f;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 0.938rem;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .bouton-redacteur span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .bouton-redacteur span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .bouton-redacteur:hover {
+    background-color: #761043;
+  }
+
+  .bouton-redacteur:hover span {
+    padding-right: 25px;
+
+  }
+
+  .bouton-redacteur:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

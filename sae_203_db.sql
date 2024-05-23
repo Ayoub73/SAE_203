@@ -68,7 +68,7 @@ INSERT INTO `auteur` (`id`, `nom`, `prenom`, `lien_twitter`, `lien_avatar`) VALU
 (1, 'Souidi', 'Ehssan', 'https://twitter.com/UniversiteCergy', 'http://ayoub-jaber.alwaysdata.net/wp-content/uploads/2023/10/Ehssan.png'),
 (2, 'Loti', 'Didier', 'https://twitter.com/UniversiteCergy', 'http://ayoub-jaber.alwaysdata.net/wp-content/uploads/2023/10/Didier.png'),
 (3, 'Idbouiguiguane', 'Hamza', 'https://twitter.com/UniversiteCergy', 'http://ayoub-jaber.alwaysdata.net/wp-content/uploads/2023/10/Hamza.png'),
-(4, 'Jaber', 'Yahya-Ayoub', 'https://twitter.com/UniversiteCergy', 'http://ayoub-jaber.alwaysdata.net/wp-content/uploads/2023/10/Ayoub.png');
+(4, 'Jaber', 'Ayoub', 'https://twitter.com/UniversiteCergy', 'http://ayoub-jaber.alwaysdata.net/wp-content/uploads/2023/10/Ayoub.png');
 
 -- --------------------------------------------------------
 

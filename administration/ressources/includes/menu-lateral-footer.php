@@ -5,6 +5,6 @@
         <li>Hamza Idbouiguiguane</li>
         <li>Ehssan Souidi</li>
         <li>Didier Loti</li>
-        <li>Yahya-Ayoub Jaber</li>
+        <li>Ayoub Jaber</li>
     </ul>
 </footer>

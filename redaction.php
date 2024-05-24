@@ -71,7 +71,7 @@ $lien_twitter = $clientMySQL->prepare('SELECT lien_twitter FROM auteur WHERE id 
                             
                             <!-- Pour le lien twitter, on a décidé de mettre une image du logo qui redirige directement vers le lien et non
                             un simple lien hypertexte -->
-                            <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" class="image-twitter" alt="Twitter-logo"></a>                     
+                            <img src="./ressources/images/logo-twitter.png" class="image-twitter" alt="Twitter-logo"></a>                     
 
                         </div>
 
